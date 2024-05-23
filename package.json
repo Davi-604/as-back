@@ -4,12 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon",
-        "build": "tsc",
-        "start": "node build/server.js",
-        "migrate:dev": "prisma migrate dev",
-        "migrate:deploy": "prisma migrate deploy"
+        "vercel-build": "prisma migrate deploy"
     },
     "author": "",
     "license": "ISC",
