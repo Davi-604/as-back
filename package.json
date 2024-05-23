@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "nodemon",
-        "vercel-build": "prisma migrate deploy"
+        "vercel-build": "npx prisma migrate deploy"
     },
     "author": "",
     "license": "ISC",
